@@ -1,0 +1,8 @@
+{
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/ah-content-upload/browser",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
