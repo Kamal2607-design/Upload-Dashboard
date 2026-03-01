@@ -1,0 +1,20 @@
+<div class="video-container" *ngIf="video">
+
+  <h2>{{ video.title }}</h2>
+
+  <video width="100%" height="500" controls>
+    <source [src]="video.videoUrl" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="video-details">
+    <p><strong>Size:</strong> {{ video.size }}</p>
+    <p><strong>Status:</strong> {{ video.status }}</p>
+    <p><strong>Date:</strong> {{ video.uploadedDate }}</p>
+  </div>
+
+</div>
+
+<div *ngIf="!video">
+  Loading video
+</div>

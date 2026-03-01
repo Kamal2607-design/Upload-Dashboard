@@ -1,0 +1,85 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.title-section h2 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.action-section {
+  display: flex;
+  gap: 12px;
+}
+
+.export-btn {
+  padding: 6px 14px;
+  border: 1px solid #1976d2;
+  background: white;
+  color: #1976d2;
+  border-radius: 4px;
+}
+
+.upload-btn {
+  padding: 8px 16px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f7fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.left-filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.right-search input {
+  padding: 6px 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.grid-card {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.filter-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f6f9;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.left-controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.right-search input {
+  padding: 6px 12px;
+  width: 260px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,20 @@
+<h2>{{ isEditMode ? 'Edit Video' : 'Upload Video' }}</h2>
+
+<div style="margin-bottom:10px;">
+  <label>Title</label>
+  <input [(ngModel)]="title" style="width:100%; padding:6px;" />
+</div>
+
+<div *ngIf="!isEditMode">
+  <input type="file" (change)="onFileSelected($event)" />
+</div>
+
+<button (click)="upload()" style="margin-top:10px;">
+  {{ isEditMode ? 'Update' : 'Upload' }}
+</button>
+
+<mat-progress-bar
+  *ngIf="uploadProgress > 0"
+  [value]="uploadProgress"
+  mode="determinate">
+</mat-progress-bar>

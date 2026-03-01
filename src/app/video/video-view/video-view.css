@@ -1,0 +1,15 @@
+.video-container {
+  padding: 20px;
+}
+
+video {
+  border-radius: 8px;
+  margin-top: 15px;
+  background: black;
+}
+
+.video-details {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
